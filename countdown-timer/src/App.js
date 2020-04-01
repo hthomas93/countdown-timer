@@ -1,8 +1,8 @@
 import React from 'react';
 import Countdown from "./components/Countdown";
-// import Datefield from "./components/Datefield";
+import Datefield from "./components/Datefield";
 // import Namefield from "./components/Namefield";
-// import Startbtn from "./components/Startbtn";
+import Startbtn from "./components/Startbtn";
 
 function App() {
   return (
@@ -11,9 +11,9 @@ function App() {
         <h1>Countdown Timer</h1>
       </header>
       <Countdown></Countdown>
-      {/* <Datefield></Datefield>
-      <Namefield></Namefield>
-      <Startbtn></Startbtn> */}
+      <Datefield></Datefield>
+      {/* <Namefield></Namefield> */}
+      <Startbtn></Startbtn>
     </div>
   );
 }
